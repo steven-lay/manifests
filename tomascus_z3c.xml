@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- DEVICE -->
+	<project name="tomascus/android_device_sony_z3c" path="device/sony/z3c" revision="cm-14.1" />
+	<project name="tomascus/android_device_sony_msm8974-common" path="device/sony/msm8974-common" revision="cm-14.1" />
+	<project name="tomascus/android_device_sony_shinano-common" path="device/sony/shinano-common" revision="cm-14.1" />
+        <!-- BLOBS -->
+	<project name="tomascus/proprietary_vendor_sony" path="vendor/sony" revision="cm-14.1" />
+        <!-- KERNEL -->
+	<project name="tomascus/codeaurora-msm8974" path="kernel/sony/msm8974" revision="cm-14.1" />
+
+	<!-- OTHERS -->
+	<project name="LineageOS/android_device_sony_common" path="device/sony/common" revision="cm-14.1" />
+	<project name="AdrianDC/android_device_sony_sepolicy" path="device/sony/sepolicy" revision="cm-14.1" />
+  	<project name="AdrianDC/android_hardware_sony_dataservices" path="hardware/sony/dataservices" remote="github" />
+        <project name="LineageOS/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="github" />
+  	<project name="LineageOS/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" />
+  	<project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" />
+  	<project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" />
+  	<project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" />
+	
+</manifest>
+
